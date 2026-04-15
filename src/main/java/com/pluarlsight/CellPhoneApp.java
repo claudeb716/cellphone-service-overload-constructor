@@ -34,16 +34,11 @@ public class CellPhoneApp {
 
         // create object for overload
         CellPhone fullPhoneInfo = new CellPhone(cellPhone1.getSerialNumber(), cellPhone1.getModel(), cellPhone1.getCarrier(), cellPhone1.getPhoneNumber(), cellPhone1.getOwner());
-//        System.out.println(fullPhoneInfo);
+
         // Close the scanner
         scanner.close();
 
         // Display the properties of the phone using getters
-//        System.out.println("\nCellPhone Details:");
-//        System.out.println("Serial Number: " + cellPhone1.getSerialNumber());
-//        System.out.println("Model: " + cellPhone1.getModel());
-//        System.out.println("Carrier: " + cellPhone1.getCarrier());
-//        System.out.println("Phone Number: " + cellPhone1.getPhoneNumber());
-//        System.out.println("Owner: " + cellPhone1.getOwner());
+
     }
 }
