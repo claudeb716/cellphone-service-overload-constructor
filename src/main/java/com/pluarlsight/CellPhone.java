@@ -23,6 +23,15 @@ public class CellPhone {
         this.owner = owner;
     }
 
+    public static void display(CellPhone phone){
+        System.out.println("\nCellPhone Details:");
+        System.out.println("Serial Number: " + phone.serialNumber);
+        System.out.println("Model: " + phone.model);
+        System.out.println("Carrier: " + phone.carrier);
+        System.out.println("Phone Number: " + phone.phoneNumber());
+        System.out.println("Owner: " + phone.owner);
+        System.out.println(phone.owner + "Phone is Calling" + phone.dial(phone.getPhoneNumber()));
+
     public int getSerialNumber() {
         return serialNumber;
     }
@@ -63,12 +72,5 @@ public class CellPhone {
         this.owner = owner;
     }
 
-    public static void display(CellPhone phone){
-        System.out.println("\nCellPhone Details:");
-        System.out.println("Serial Number: " + phone.getSerialNumber());
-        System.out.println("Model: " + phone.getModel());
-        System.out.println("Carrier: " + phone.getCarrier());
-        System.out.println("Phone Number: " + phone.getPhoneNumber());
-        System.out.println("Owner: " + phone.getOwner());
-    }
+
 }

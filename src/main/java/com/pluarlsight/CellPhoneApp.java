@@ -41,4 +41,5 @@ public class CellPhoneApp {
         // Display the properties of the phone using getters
 
     }
+
 }
